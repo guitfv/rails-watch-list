@@ -1,0 +1,23 @@
+=> Booting Puma
+=> Rails 7.0.4 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 5.6.5 (ruby 3.1.2-p20) ("Birdie's Version")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 24264
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+Started GET "/lists" for ::1 at 2022-11-18 14:52:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ListsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lists/index.html.erb within layouts/application
+  Rendered lists/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 318)
+Started GET "/lists" for ::1 at 2022-11-18 14:52:27 +0000
+Processing by ListsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lists/index.html.erb within layouts/application
+  Rendered lists/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 43)

@@ -69,3 +69,5 @@ gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem "dotenv-rails", groups: [:development, :test]
+gem "cloudinary"
